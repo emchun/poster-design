@@ -1,6 +1,6 @@
 
 # Site settings
-title: Your awesome title
+title: Hello
 description: A starter site
 baseurl: "/web1-jekyll" # folder where your site lives, e.g. /web1-sp - needs to start with a slash
 
