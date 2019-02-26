@@ -4,7 +4,7 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Title goes here</title>
+	<title>Hello</title>
 	<meta name="description" content="{{ page.description }}">
 	
 	<!-- Enable responsive layouts; tell browsers not to shrink pages to fit small screens -->
@@ -42,7 +42,7 @@
 		<p>Today's color is: {{ page.color }}</p>
 
         {% if page.date %}
-    		<p>Updated {{ page.date | date: "%A, %B %-d, %Y" }}</p>
+    		<p>Today's date {{ page.date | date: "%A, %B %-d, %Y" }}</p>
         {% endif %}
 		
 	</div><!-- end container -->
