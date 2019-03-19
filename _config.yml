@@ -1,8 +1,7 @@
-
 # Site settings
-title: Hello
+title: Promotional Poster Design
 description: This is a site
-baseurl: "/web1-jekyll" # folder where your site lives, e.g. /web1-sp - needs to start with a slash
+baseurl: "/information-architecture" # folder where your site lives, e.g. /web1-sp - needs to start with a slash
 
 # Build settings
 markdown: kramdown
