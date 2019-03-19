@@ -4,8 +4,8 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Hello</title>
-	<meta name="description" content="{{ page.description }}">
+	<title> Promotional Poster Design </title>
+	<meta name="a collection of Cooper Hewitt posters" content="{{ page.description }}">
 	
 	<!-- Enable responsive layouts; tell browsers not to shrink pages to fit small screens -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,8 +15,8 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/sitewide.css">
 	
 	<!-- Webfonts -->
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Oswald" rel="stylesheet">
+    
 </head>
 <body class="homepage">
 <!-- Change this classname for each page/type! -->
@@ -27,20 +27,47 @@
 		<!-- global navbar -->
 		<nav class="global-nav">
 	        <ul>
-				<li><a href="{{ site.baseurl }}/">Home</a></li>
-				<li><a href="{{ site.baseurl }}/forecast">Forecast</a></li>
-				<li><a href="{{ site.baseurl }}/operations">Operations</a></li>
-				<li><a href="{{ site.baseurl }}/groundhog.html">Groundhog</a></li>
+				<li><a href="{{ site.baseurl }}/"> Home </a></li>
+				<li><a href="{{ site.baseurl }}/about"> About </a></li>
+				<li><a href="{{ site.baseurl }}/posters"> Posters </a></li>
 			</ul>
 		</nav>
 		
 		<hr>
+        
+        <h2> Posters by Country </h2>
 		
-		{% for p in site.pages %}
-			{% if p.animal=="rodent" %}
-				<a href="{{ site.baseurl }}{{ p.url }}"> {{ p.title }} </a>
-			{% endif %}
-		{% endfor %}
+		<h4> Australia </h4>
+            <ul>
+            {% for p in site.pages %}
+                {% if p.country=="Australia" %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ p.url }}">
+                          {{ p.title }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}    
+            </ul>
+  		
+        <h4> France </h4>
+            <ul>
+            {% for p in site.pages %}
+                {% if p.country=="France" %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ p.url }}">
+                          {{ p.title }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}    
+            </ul>      
+        
+        
+
+        
+        
+        
 		
 		<hr>
 		
