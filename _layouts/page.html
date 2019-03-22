@@ -49,11 +49,11 @@
                 {% endif %}
             {% endfor %}    
             </ul>
-  		
+            
         <h4> France </h4>
             <ul>
             {% for p in site.pages %}
-                {% if p.country=="switzerland" %}
+                {% if p.country=="France" %}
                     <li>
                         <a href="{{ site.baseurl }}{{ p.url }}">
                           {{ p.title }}
@@ -61,8 +61,60 @@
                     </li>
                 {% endif %}
             {% endfor %}    
-            </ul>      
-
+        </ul> 
+        
+        <h4> Netherlands </h4>
+            <ul>
+            {% for p in site.pages %}
+                {% if p.country=="Netherlands" %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ p.url }}">
+                          {{ p.title }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}    
+        </ul>    
+  		
+        <h4> Switzerland </h4>
+            <ul>
+            {% for p in site.pages %}
+                {% if p.country=="Switzerland" %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ p.url }}">
+                          {{ p.title }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}    
+            </ul>  
+        
+        <h4> United Kingdom </h4>
+            <ul>
+            {% for p in site.pages %}
+                {% if p.country=="United Kingdom" %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ p.url }}">
+                          {{ p.title }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}    
+            </ul>
+        
+        <h4> United States </h4>
+            <ul>
+            {% for p in site.pages %}
+                {% if p.country=="United States" %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ p.url }}">
+                          {{ p.title }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}    
+            </ul>
+        
 	</div><!-- end container -->
 	
 </body>
