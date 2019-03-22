@@ -53,7 +53,7 @@
         <h4> France </h4>
             <ul>
             {% for p in site.pages %}
-                {% if p.country=="France" %}
+                {% if p.country=="switzerland" %}
                     <li>
                         <a href="{{ site.baseurl }}{{ p.url }}">
                           {{ p.title }}
@@ -62,25 +62,7 @@
                 {% endif %}
             {% endfor %}    
             </ul>      
-        
-        
 
-        
-        
-        
-		
-		<hr>
-		
-        <h1>{{ page.title }}</h1>
-		
-		{{ content }}
-
-		<p>Today's color is: {{ page.color }}</p>
-
-        {% if page.date %}
-    		<p>Today's date is: {{ page.date | date: "%A, %B %-d, %Y" }}</p>
-        {% endif %}
-		
 	</div><!-- end container -->
 	
 </body>
