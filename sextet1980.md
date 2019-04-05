@@ -1,5 +1,5 @@
 ---
-layout: posterinfo
+layout: posters
 title: Mccoy Tyner Sextet, Jazz Festival Willisau
 artist: Niklaus Troxler
 date: 1980s

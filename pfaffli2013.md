@@ -1,11 +1,13 @@
 ---
-title: POSTER, AU REVOIR SIMONE, 2013
-layout: page
-date: 1980s
-type: music
+layout: posters
+title: Au Revoir Simone
+artist: Felix Pfäffli
+date: 2010s
+type: performance
+color: blue, white
 country: Switzerland
 ---
 
-### Poster, Mccoy Tyner Sextet, Jazz Festival Willisau, 1980
+### Au Revoir Simone (2013)
 
-<img src="/poster-design/img/jazzfestwillisau.jpg" alt="Mccoy Tyner Sextet Poster">
+<img src="/poster-design/img/aurevoirsimone" alt="Au Revoir Simone Poster">
