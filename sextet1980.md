@@ -1,11 +1,13 @@
 ---
-title: POSTER, MCCOY TYNER SEXTET, JAZZ FESTIVAL WILLISAU, 1980
-layout: page
+layout: posterinfo
+title: Mccoy Tyner Sextet, Jazz Festival Willisau
+artist: Niklaus Troxler
 date: 1980s
 type: music
+color: yellow, blue
 country: Switzerland
 ---
 
-### Poster, Mccoy Tyner Sextet, Jazz Festival Willisau, 1980
+### Mccoy Tyner Sextet, Jazz Festival Willisau (1980)
 
-<img src="/poster-design/img/jazzfestwillisau.jpg" alt="Mccoy Tyner Sextet Poster">
+<img src="/poster-design/img/jazzfestwillisau.jpg" alt="Jazz Festival Willisau Poster">
