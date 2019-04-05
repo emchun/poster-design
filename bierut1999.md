@@ -4,7 +4,9 @@ title: Light/Years
 artist: Michael Bierut
 date: 1990s
 type: fundraiser
-color: black, white
+color: 
+  - black
+  - white
 country: United States
 ---
 

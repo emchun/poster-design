@@ -12,7 +12,7 @@
 
 	<!-- Load styles -->
 	<!-- For production, combine all of the stylesheets -->
-	<link rel="stylesheet" href="css/sitewide.css">
+	<link rel="stylesheet" href="../css/sitewide.css">
 	
 	<!-- Webfonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Oswald:400,600" rel="stylesheet">    
@@ -115,6 +115,34 @@
             <ul>
             {% for p in site.pages %}
                 {% if p.country=="United States" %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ p.url }}">
+                          {{ p.title }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}    
+            </ul>
+        
+         <h2> Posters by Color </h2>
+        
+            <h4> Black </h4>
+            <ul>
+            {% for p in site.pages %}
+                {% if p.color contains "black" %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ p.url }}">
+                          {{ p.title }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}    
+            </ul>
+                    
+            <h4> White </h4>
+            <ul>
+            {% for p in site.pages %}
+                {% if p.color contains "white" %}
                     <li>
                         <a href="{{ site.baseurl }}{{ p.url }}">
                           {{ p.title }}

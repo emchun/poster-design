@@ -4,7 +4,10 @@ title: Der Film
 artist: Josef Müller-Brockmann
 date: 1950s
 type: film
-color: black, white, orange
+color: 
+  - black
+  - white
+  - orange
 country: Switzerland
 ---
 

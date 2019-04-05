@@ -4,7 +4,10 @@ title: Brahms Ein Ballet
 artist: Heinz Spoerli
 date: 1990s
 type: performance
-color: red, white, black
+color: 
+  - red
+  - white
+  - black
 country: Switzerland
 ---
 

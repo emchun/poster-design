@@ -4,7 +4,9 @@ title: Future Islands
 artist: Felix Pfäffli
 date: 2010s
 type: music
-color: black, white
+color: 
+  - black
+  - white
 country: Switzerland
 ---
 

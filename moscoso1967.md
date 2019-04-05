@@ -4,7 +4,10 @@ title: Chamber Brothers Band, Neon Rose #12
 artist: Victor Moscoso
 date: 1960s
 type: music
-color: blue, orange, pink
+color: 
+  - blue
+  - pink
+  - orange
 country: United States
 ---
 

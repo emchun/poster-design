@@ -4,7 +4,10 @@ title: Crossing the Line - FIAF Fall Festival
 artist: Philippe Apeloig
 date: 2010s
 type: exhibition
-color: black, white, orange
+color: 
+  - black
+  - white
+  - orange
 country: France
 ---
 

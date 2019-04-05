@@ -4,6 +4,9 @@ title: Mccoy Tyner Sextet, Jazz Festival Willisau
 artist: Niklaus Troxler
 date: 1980s
 type: music
+color: 
+  - yellow
+  - blue
 color: yellow, blue
 country: Switzerland
 ---

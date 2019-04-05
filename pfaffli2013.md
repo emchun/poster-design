@@ -4,7 +4,9 @@ title: Au Revoir Simone
 artist: Felix Pfäffli
 date: 2010s
 type: performance
-color: blue, white
+color: 
+  - blue
+  - white
 country: Switzerland
 ---
 

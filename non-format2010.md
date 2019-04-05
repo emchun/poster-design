@@ -4,7 +4,9 @@ title: David Bowie
 artist: Non-Format
 date: 2010s
 type: music
-color: black, white
+color: 
+  - black
+  - white
 country: United Kingdom
 ---
 

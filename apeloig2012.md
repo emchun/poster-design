@@ -4,7 +4,10 @@ title: Bruits Du Monde
 artist: Philippe Apeloig
 date: 2010s
 type: book fair
-color: blue, white, black
+color: 
+  - blue
+  - white
+  - black
 country: France
 ---
 
