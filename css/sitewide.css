@@ -177,6 +177,7 @@ h6 {
 
 .header {
     grid-column: 1/7;
+    grid-row: auto;
     text-align: center;
     margin: 0;
     padding: 2vw 0 2vw 0;
@@ -199,6 +200,48 @@ h6 {
     padding: 0 3em 0 0;
 }
 
+/* poster page elements */
+
+.poster-list {
+    grid-column: 1/7;
+    grid-row: auto;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.poster-categories {
+    grid-column: 2/6;
+} */
+
+.poster-categories ul {
+    padding: 0;
+}
+
+.poster-categories li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.poster-categories a {
+	padding: 0.5vh 0 0.5vh 0;
+    display: block;
+}
+
+.image {
+    width: 150px;
+    vertical-align: text-top;
+    margin: 0;
+    padding: 0;
+}
+
+.img-text {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
 /* poster info page elements */
 
 .poster {
@@ -218,4 +261,8 @@ h6 {
 
 .categories {
     padding-top: 1em;
+}
+
+.image-posterinfo {
+    width: 250px;
 }

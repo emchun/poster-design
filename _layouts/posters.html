@@ -12,7 +12,7 @@
 
 	<!-- Load styles -->
 	<!-- For production, combine all of the stylesheets -->
-	<link rel="stylesheet" href="../css/sitewide.css">
+	<link rel="stylesheet" href="{{site.baseurl}}/css/sitewide.css">
 	
 	<!-- Webfonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Oswald:400,600" rel="stylesheet">    
@@ -41,117 +41,277 @@
                     
         </div>
         <!-- end header -->
-		
-		<hr>
+		        
+        <div class="poster-list">
         
-        <h2> Posters by Country </h2>
-		
-		<h4> Australia </h4>
-            <ul>
-            {% for p in site.pages %}
-                {% if p.country=="Australia" %}
-                    <li>
-                        <a href="{{ site.baseurl }}{{ p.url }}">
-                          {{ p.title }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}    
-            </ul>
+            <h2> Posters by Country </h2>
             
-        <h4> France </h4>
-            <ul>
-            {% for p in site.pages %}
-                {% if p.country=="France" %}
-                    <li>
-                        <a href="{{ site.baseurl }}{{ p.url }}">
-                          {{ p.title }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}    
-        </ul> 
-        
-        <h4> Netherlands </h4>
-            <ul>
-            {% for p in site.pages %}
-                {% if p.country=="Netherlands" %}
-                    <li>
-                        <a href="{{ site.baseurl }}{{ p.url }}">
-                          {{ p.title }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}    
-        </ul>    
-  		
-        <h4> Switzerland </h4>
-            <ul>
-            {% for p in site.pages %}
-                {% if p.country=="Switzerland" %}
-                    <li>
-                        <a href="{{ site.baseurl }}{{ p.url }}">
-                          {{ p.title }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}    
-            </ul>  
-        
-        <h4> United Kingdom </h4>
-            <ul>
-            {% for p in site.pages %}
-                {% if p.country=="United Kingdom" %}
-                    <li>
-                        <a href="{{ site.baseurl }}{{ p.url }}">
-                          {{ p.title }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}    
-            </ul>
-        
-        <h4> United States </h4>
-            <ul>
-            {% for p in site.pages %}
-                {% if p.country=="United States" %}
-                    <li>
-                        <a href="{{ site.baseurl }}{{ p.url }}">
-                          {{ p.title }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}    
-            </ul>
-        
-         <h2> Posters by Color </h2>
-        
-            <h4> Black </h4>
-            <ul>
-            {% for p in site.pages %}
-                {% if p.color contains "black" %}
-                    <li>
-                        <a href="{{ site.baseurl }}{{ p.url }}">
-                          {{ p.title }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}    
-            </ul>
-                    
-            <h4> White </h4>
-            <ul>
-            {% for p in site.pages %}
-                {% if p.color contains "white" %}
-                    <li>
-                        <a href="{{ site.baseurl }}{{ p.url }}">
-                          {{ p.title }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}    
-            </ul>
-    
+                <h4> Australia </h4>
+                    <ul class="poster-categories">
+                        {% for p in site.pages %}
+                        {% if p.country=="Australia" %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ p.url }}">
+                                  <div class="image"> {{ p.image }}</div> <div class="img-text"> {{ p.title }} </div>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}    
+                    </ul>
+                
+            <h4> France </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.country=="France" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }}</div> <div class="img-text"> {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+            </ul> 
+
+            <h4> Netherlands </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.country=="Netherlands" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }}</div> <div class="img-text"> {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+            </ul>    
+
+            <h4> Switzerland </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.country=="Switzerland" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }}</div> <div class="img-text"> {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+                </ul>  
+
+            <h4> United Kingdom </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.country=="United Kingdom" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }} {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+                </ul>
+
+            <h4> United States </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.country=="United States" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }} {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+                </ul>
+
+             <h2> Posters by Type </h2>
+            
+                <h4> Book Fair </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.type=="book fair" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }} {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+                </ul>
+
+                <h4> Convention </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.type=="convention" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }} {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+                </ul>
+                
+                <h4> Exhibition </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.type=="exhibition" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }} {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+                </ul>
+            
+                <h4> Film </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.type=="film" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }} {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+                </ul>
+            
+                <h4> Fundraiser </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.type=="fundraiser" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }} {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+                </ul>
+            
+                <h4> Music </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.type=="music" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }} {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+                </ul>
+
+                <h4> Performance </h4>
+                <ul class="poster-categories">
+                {% for p in site.pages %}
+                    {% if p.type=="performance" %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ p.url }}">
+                              <div class="image"> {{ p.image }} {{ p.title }} </div>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}    
+                </ul>
+            
+            <h2> Posters by Year </h2>
+            
+                <h4> 1950s </h4>
+                    <ul class="poster-categories">
+                        {% for p in site.pages %}
+                        {% if p.date=="1950s" %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ p.url }}">
+                                  <div class="image"> {{ p.image }} {{ p.title }} </div>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}    
+                    </ul>
+            
+                <h4> 1960s </h4>
+                    <ul class="poster-categories">
+                        {% for p in site.pages %}
+                        {% if p.date=="1960s" %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ p.url }}">
+                                  <div class="image"> {{ p.image }} {{ p.title }} </div>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}    
+                    </ul>
+            
+                <h4> 1970s </h4>
+                    <ul class="poster-categories">
+                        {% for p in site.pages %}
+                        {% if p.date=="1970s" %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ p.url }}">
+                                  <div class="image"> {{ p.image }} {{ p.title }} </div>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}    
+                    </ul>
+
+                    <h4> 1980s </h4>
+                    <ul class="poster-categories">
+                        {% for p in site.pages %}
+                        {% if p.date=="1980s" %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ p.url }}">
+                                  <div class="image"> {{ p.image }} {{ p.title }} </div>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}    
+                    </ul>
+            
+                    <h4> 1990s </h4>
+                    <ul class="poster-categories">
+                        {% for p in site.pages %}
+                        {% if p.date=="1990s" %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ p.url }}">
+                                  <div class="image"> {{ p.image }} {{ p.title }} </div>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}    
+                    </ul>
+                
+                    <h4> 2000s </h4>
+                    <ul class="poster-categories">
+                        {% for p in site.pages %}
+                        {% if p.date=="2000s" %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ p.url }}">
+                                  <div class="image"> {{ p.image }} {{ p.title }} </div>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}    
+                    </ul>
+            
+                    <h4> 2010s </h4>
+                    <ul class="poster-categories">
+                        {% for p in site.pages %}
+                        {% if p.date=="2010s" %}
+                            <li>
+                                <a href="{{ site.baseurl }}{{ p.url }}">
+                                  <div class="image"> {{ p.image }} {{ p.title }} </div>
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}    
+                    </ul>
+            
+            </div>
+            <!-- end poster info -->
     </div>
     <!-- end container -->
         	
