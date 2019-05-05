@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Paradiso (2010)
+title: Paradiso poster (2010)
 artist: 
   - Experimental Jetset
   - Erwin Brinkers

@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Open House at Art Center (1993)
+title: Open House poster (1993)
 artist: Unknown
 date: 1990s
 type: exhibition

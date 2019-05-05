@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: The Tyranny of Distance (2008)
+title: Jonathan Jones poster (2008)
 artist: Mark Gowing
 date: 2000s
 type: exhibition

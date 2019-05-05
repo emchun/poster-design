@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Light/Years (1999)
+title: Light/Years poster (1999)
 artist: Michael Bierut
 date: 1990s
 type: fundraiser

@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Future Islands (2014)
+title: Future Islands poster (2014)
 artist: Felix Pfäffli
 date: 2010s
 type: music

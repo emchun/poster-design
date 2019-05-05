@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: David Bowie 1976-84 (2010)
+title: David Bowie poster (2010)
 artist: Non-Format
 date: 2010s
 type: music

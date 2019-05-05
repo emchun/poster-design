@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Crossing the Line - FIAF Fall Festival (2010)
+title: Crossing the Line poster (2010)
 artist: Philippe Apeloig
 date: 2010s
 type: exhibition

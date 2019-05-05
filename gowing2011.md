@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Ryan Francesconi (2011)
+title: Ryan Francesconi poster (2011)
 artist: Mark Gowing
 date: 2010s
 type: music

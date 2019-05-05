@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Vivio in Typo, Affiches et Alphabets (2008)
+title: Vivio in Typo poster (2008)
 artist: Philippe Apeloig
 date: 2000s
 type: exhibition

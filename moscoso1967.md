@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Chamber Brothers Band, Neon Rose #12 (1967)
+title: Chamber Brothers Band poster (1967)
 artist: Victor Moscoso
 date: 1960s
 type: music

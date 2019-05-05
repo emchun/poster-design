@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Seduction, for Yale School of Architecture Symposium January 20-21, 2007, 2006-07 (2006)
+title: Seduction poster (2006)
 artist: 
   - Michelle Leong
   - Marian Bantjes

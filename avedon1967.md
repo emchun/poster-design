@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: John Lennon (1967)
+title: John Lennon poster (1967)
 artist: Richard Avedon
 date: 1960s
 type: music

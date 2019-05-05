@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Brahms Ein Ballet (1997)
+title: Brahms Ein Ballet poster (1997)
 artist: Heinz Spoerli
 date: 1990s
 type: performance

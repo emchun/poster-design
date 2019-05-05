@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: IDCNY Welcomes the 1988 AIA Convention (1988)
+title: IDCNY poster (1988)
 artist:
   - Massimo Vignelli
   - Michael Bierut

@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Sundance Film Festival (2013)
+title: Sundance poster (2013)
 artist: Paula Scher
 date: 2010s
 type: film

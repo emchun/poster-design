@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Jazz Festival Willisau (2011)
+title: Jazz Festival Willisau poster (2011)
 artist: Paula Troxler
 date: 2010s
 type: music

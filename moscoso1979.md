@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Junior Wells (1979)
+title: Junior Wells poster (1979)
 artist: Victor Moscoso
 date: 1970s
 type: music

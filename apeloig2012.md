@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Bruits Du Monde (2012)
+title: Bruits Du Monde poster (2012)
 artist: Philippe Apeloig
 date: 2010s
 type: book fair

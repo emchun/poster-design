@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Elsewhere Exhibition, KK Outlet Gallery, London (2014)
+title: Elsewhere Exhibition poster (2014)
 artist: Non-Format
 date: 2010s
 type: exhibition

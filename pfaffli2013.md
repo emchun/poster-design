@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Au Revoir Simone (2013)
+title: Au Revoir Simone poster (2013)
 artist: Felix Pfäffli
 date: 2010s
 type: performance

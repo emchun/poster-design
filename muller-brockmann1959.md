@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: Der Film (1959-60)
+title: Der Film poster (1959-60)
 artist: Josef Müller-Brockmann
 date: 1950s
 type: film

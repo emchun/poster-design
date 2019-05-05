@@ -1,6 +1,6 @@
 ---
 layout: posterinfo
-title: 1999 Season, Ballet Tech (1999)
+title: Ballet Tech poster (1999)
 artist: Paula Scher
 date: 1990s
 type: performance
